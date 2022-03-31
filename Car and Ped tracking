@@ -1,10 +1,10 @@
 import cv2
 
 # images
-img_file = r'C:\Users\cbfoste2\Desktop\car-highway.jpg'
-video = cv2.VideoCapture(r'C:\Users\cbfoste2\Downloads\yt5s.com-Tesla v9 Software Update - Model 3 Dashcam (RAW).mp4')
+img_file = r''
+video = cv2.VideoCapture(r'')
 # car classifer
-classifier_file = r'C:\Users\cbfoste2\Desktop\cars.xml'
+classifier_file = r''
 
 car_tracker = cv2.CascadeClassifier(classifier_file)
 while True:
